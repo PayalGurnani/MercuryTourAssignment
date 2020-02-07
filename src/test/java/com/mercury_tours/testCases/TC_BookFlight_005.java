@@ -146,7 +146,7 @@ public class TC_BookFlight_005 extends BaseClass{
 	   
 	   try {
 		   //flight booked confirmation message
-	   if(driver.findElement(By.xpath("/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td/img")).isDisplayed())
+	   if(driver.findElement(By.xpath("//img[@src='/images/masts/mast_confirmation.gif']")).isDisplayed())
 	   {
 		   Assert.assertTrue(true);
 			logger.warn("****Flight Successfully booked - PASS****");

@@ -449,3 +449,12 @@
 2020-02-06 17:28:23,715 [main] INFO demoProject - ****Flight booking details entered****
 2020-02-06 17:28:23,807 [main] WARN demoProject - ****Flight Successfully booked - PASS****
 2020-02-06 17:28:25,811 [main] INFO demoProject - URL quit>>>>
+2020-02-07 16:28:59,042 [main] INFO demoProject - URL launched>>>>
+2020-02-07 16:29:03,195 [main] INFO demoProject - ****URL Launched****
+2020-02-07 16:29:03,707 [main] INFO demoProject - ****Username entered****
+2020-02-07 16:29:03,794 [main] INFO demoProject - ****Password entered****
+2020-02-07 16:29:15,245 [main] INFO demoProject - ****Find a Flight details entered****
+2020-02-07 16:29:20,946 [main] INFO demoProject - ****Select flights details entered****
+2020-02-07 16:29:27,488 [main] INFO demoProject - ****Flight booking details entered****
+2020-02-07 16:29:27,612 [main] WARN demoProject - ****Flight Successfully booked - PASS****
+2020-02-07 16:29:29,652 [main] INFO demoProject - URL quit>>>>

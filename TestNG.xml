@@ -11,9 +11,9 @@
 	<!-- <parameter name="browser" value="firefox"/> -->
 	<classes>
 	<!-- <class name="com.mercury_tours.testCases.TC_SignOn_001"/> -->
-	<class name="com.mercury_tours.testCases.TC_SignOnDDT_002"/>
+	<!-- <class name="com.mercury_tours.testCases.TC_SignOnDDT_002"/> -->
 	  <!--  <class name="com.mercury_tours.testCases.TC_RegisterDDT_003"/> --> 
-	 <class name="com.mercury_tours.testCases.TC_Register_004"/>
+	 <!-- <class name="com.mercury_tours.testCases.TC_Register_004"/> -->
 	<class name="com.mercury_tours.testCases.TC_BookFlight_005"/> 
 	
 	</classes>
