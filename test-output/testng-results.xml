@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-07T00:26:44Z" name="MercuryTours" finished-at="2020-02-07T00:28:26Z" duration-ms="101555">
+    <groups>
+    </groups>
+    <test started-at="2020-02-07T00:26:44Z" name="Mercury Tours Test" finished-at="2020-02-07T00:28:26Z" duration-ms="101555">
+      <class name="com.mercury_tours.testCases.TC_Register_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_Register_004@197d671]" started-at="2020-02-07T00:27:31Z" name="setup" finished-at="2020-02-07T00:27:41Z" duration-ms="9880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerDDT()[pri:0, instance:com.mercury_tours.testCases.TC_Register_004@197d671]" started-at="2020-02-07T00:27:41Z" name="registerDDT" finished-at="2020-02-07T00:27:49Z" duration-ms="7679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_Register_004@197d671]" started-at="2020-02-07T00:27:49Z" name="tearDown" finished-at="2020-02-07T00:27:49Z" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury_tours.testCases.TC_Register_004 -->
+      <class name="com.mercury_tours.testCases.TC_SignOnDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:26:45Z" name="setup" finished-at="2020-02-07T00:26:56Z" duration-ms="11101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:26:58Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-07T00:27:03Z" duration-ms="4729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:27:03Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-07T00:27:07Z" duration-ms="4224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1a2b3c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:27:07Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-07T00:27:11Z" duration-ms="4119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ptest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ptest1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:27:11Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-07T00:27:22Z" duration-ms="10052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:27:22Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-07T00:27:26Z" duration-ms="4543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:27:26Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-07T00:27:30Z" duration-ms="4202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@27c86f2d]" started-at="2020-02-07T00:27:30Z" name="tearDown" finished-at="2020-02-07T00:27:31Z" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury_tours.testCases.TC_SignOnDDT_002 -->
+      <class name="com.mercury_tours.testCases.TC_BookFlight_005">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@402e37bc]" started-at="2020-02-07T00:27:49Z" name="setup" finished-at="2020-02-07T00:27:59Z" duration-ms="10033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@402e37bc]" started-at="2020-02-07T00:27:59Z" name="bookFlight" finished-at="2020-02-07T00:28:25Z" duration-ms="26023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@402e37bc]" started-at="2020-02-07T00:28:25Z" name="tearDown" finished-at="2020-02-07T00:28:26Z" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury_tours.testCases.TC_BookFlight_005 -->
+    </test> <!-- Mercury Tours Test -->
+  </suite> <!-- MercuryTours -->
+</testng-results>

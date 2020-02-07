@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MercuryTours" class="navigator-link">
+              <span class="suite-name border-passed">MercuryTours</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MercuryTours" class="navigator-link ">
+                    <span>D:\CFM_Assessment\mercury_tours\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MercuryTours" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MercuryTours" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MercuryTours" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MercuryTours" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MercuryTours" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MercuryTours" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MercuryTours" class="hide-methods passed suite-MercuryTours"> (hide)</a> <!-- hide-methods passed suite-MercuryTours -->
+                      <a href="#" panel-name="suite-MercuryTours" class="show-methods passed suite-MercuryTours"> (show)</a> <!-- show-methods passed suite-MercuryTours -->
+                    </span>
+                    <div class="method-list-content passed suite-MercuryTours">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_SignOnDDT_002" class="method navigator-link" hash-for-method="SignOnDDT(stest, , FALSE)">SignOnDDT(stest, , FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_SignOnDDT_002" class="method navigator-link" hash-for-method="SignOnDDT(ptest, ptest1234, FALSE)">SignOnDDT(ptest, ptest1234, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_SignOnDDT_002" class="method navigator-link" hash-for-method="SignOnDDT(, , FALSE)">SignOnDDT(, , FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_SignOnDDT_002" class="method navigator-link" hash-for-method="SignOnDDT(, 1a2b3c, FALSE)">SignOnDDT(, 1a2b3c, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_SignOnDDT_002" class="method navigator-link" hash-for-method="SignOnDDT(abcde, 1234, FALSE)">SignOnDDT(abcde, 1234, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_SignOnDDT_002" class="method navigator-link" hash-for-method="SignOnDDT(mercury, mercury, TRUE)">SignOnDDT(mercury, mercury, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_BookFlight_005" class="method navigator-link" hash-for-method="bookFlight">bookFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MercuryTours" title="com.mercury_tours.testCases.TC_Register_004" class="method navigator-link" hash-for-method="registerDDT">registerDDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MercuryTours -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MercuryTours" class="panel MercuryTours">
+          <div class="suite-MercuryTours-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mercury_tours.testCases.TC_BookFlight_005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookFlight">
+                  </a> <!-- bookFlight -->
+                  <span class="method-name">bookFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MercuryTours-class-passed -->
+          <div class="suite-MercuryTours-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mercury_tours.testCases.TC_SignOnDDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOnDDT(stest, , FALSE)">
+                  </a> <!-- SignOnDDT(stest, , FALSE) -->
+                  <span class="method-name">SignOnDDT</span>
+                  <span class="parameters">(stest, , FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOnDDT(ptest, ptest1234, FALSE)">
+                  </a> <!-- SignOnDDT(ptest, ptest1234, FALSE) -->
+                  <span class="method-name">SignOnDDT</span>
+                  <span class="parameters">(ptest, ptest1234, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOnDDT(, , FALSE)">
+                  </a> <!-- SignOnDDT(, , FALSE) -->
+                  <span class="method-name">SignOnDDT</span>
+                  <span class="parameters">(, , FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOnDDT(, 1a2b3c, FALSE)">
+                  </a> <!-- SignOnDDT(, 1a2b3c, FALSE) -->
+                  <span class="method-name">SignOnDDT</span>
+                  <span class="parameters">(, 1a2b3c, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOnDDT(abcde, 1234, FALSE)">
+                  </a> <!-- SignOnDDT(abcde, 1234, FALSE) -->
+                  <span class="method-name">SignOnDDT</span>
+                  <span class="parameters">(abcde, 1234, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOnDDT(mercury, mercury, TRUE)">
+                  </a> <!-- SignOnDDT(mercury, mercury, TRUE) -->
+                  <span class="method-name">SignOnDDT</span>
+                  <span class="parameters">(mercury, mercury, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MercuryTours-class-passed -->
+          <div class="suite-MercuryTours-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mercury_tours.testCases.TC_Register_004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerDDT">
+                  </a> <!-- registerDDT -->
+                  <span class="method-name">registerDDT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MercuryTours-class-passed -->
+        </div> <!-- panel MercuryTours -->
+        <div panel-name="test-xml-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\CFM_Assessment\mercury_tours\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MercuryTours&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.mercury_tours.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Mercury Tours Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mercury_tours.testCases.TC_SignOnDDT_002&quot;/&gt;
+      &lt;class name=&quot;com.mercury_tours.testCases.TC_Register_004&quot;/&gt;
+      &lt;class name=&quot;com.mercury_tours.testCases.TC_BookFlight_005&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mercury Tours Test --&gt;
+&lt;/suite&gt; &lt;!-- MercuryTours --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MercuryTours</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Mercury Tours Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MercuryTours</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MercuryTours</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MercuryTours');
+function tableData_MercuryTours() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bookFlight')
+data.setCell(0, 2, 'com.mercury_tours.testCases.TC_BookFlight_005')
+data.setCell(0, 3, 26023);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SignOnDDT')
+data.setCell(1, 2, 'com.mercury_tours.testCases.TC_SignOnDDT_002')
+data.setCell(1, 3, 10052);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerDDT')
+data.setCell(2, 2, 'com.mercury_tours.testCases.TC_Register_004')
+data.setCell(2, 3, 7679);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SignOnDDT')
+data.setCell(3, 2, 'com.mercury_tours.testCases.TC_SignOnDDT_002')
+data.setCell(3, 3, 4729);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SignOnDDT')
+data.setCell(4, 2, 'com.mercury_tours.testCases.TC_SignOnDDT_002')
+data.setCell(4, 3, 4543);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SignOnDDT')
+data.setCell(5, 2, 'com.mercury_tours.testCases.TC_SignOnDDT_002')
+data.setCell(5, 3, 4224);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SignOnDDT')
+data.setCell(6, 2, 'com.mercury_tours.testCases.TC_SignOnDDT_002')
+data.setCell(6, 3, 4202);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SignOnDDT')
+data.setCell(7, 2, 'com.mercury_tours.testCases.TC_SignOnDDT_002')
+data.setCell(7, 3, 4119);
+window.suiteTableData['MercuryTours']= { tableData: data, tableDiv: 'times-div-MercuryTours'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MercuryTours">
+              </div> <!-- times-div-MercuryTours -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MercuryTours</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MercuryTours" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mercury_tours.testCases.TC_SignOnDDT_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SignOnDDT(abcde, 1234, FALSE)</span>
+                <span class="method-start">13740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOnDDT(, 1a2b3c, FALSE)</span>
+                <span class="method-start">18482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOnDDT(ptest, ptest1234, FALSE)</span>
+                <span class="method-start">22709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOnDDT(mercury, mercury, TRUE)</span>
+                <span class="method-start">26830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOnDDT(, , FALSE)</span>
+                <span class="method-start">36887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignOnDDT(stest, , FALSE)</span>
+                <span class="method-start">41432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45636 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mercury_tours.testCases.TC_Register_004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">46315 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registerDDT</span>
+                <span class="method-start">56195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63877 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mercury_tours.testCases.TC_BookFlight_005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">64585 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">bookFlight</span>
+                <span class="method-start">74618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100643 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
