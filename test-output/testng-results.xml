@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-07T23:28:51Z" name="MercuryTours" finished-at="2020-02-07T23:29:30Z" duration-ms="38524">
+  <suite started-at="2020-02-08T21:56:26Z" name="MercuryTours" finished-at="2020-02-08T21:58:35Z" duration-ms="128913">
     <groups>
     </groups>
-    <test started-at="2020-02-07T23:28:51Z" name="Mercury Tours Test" finished-at="2020-02-07T23:29:30Z" duration-ms="38524">
-      <class name="com.mercury_tours.testCases.TC_BookFlight_005">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@7ea37dbf]" started-at="2020-02-07T23:28:52Z" name="setup" finished-at="2020-02-07T23:29:03Z" duration-ms="11100" status="PASS">
+    <test started-at="2020-02-08T21:56:26Z" name="Mercury Tours Test" finished-at="2020-02-08T21:58:35Z" duration-ms="128913">
+      <class name="com.mercury_tours.testCases.TC_SignOnDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:56:26Z" name="setup" finished-at="2020-02-08T21:56:36Z" duration-ms="10357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,801 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@7ea37dbf]" started-at="2020-02-07T23:29:03Z" name="bookFlight" finished-at="2020-02-07T23:29:29Z" duration-ms="26431" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:56:37Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-08T21:56:42Z" duration-ms="4369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:56:42Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-08T21:56:46Z" duration-ms="4276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1a2b3c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:56:46Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-08T21:56:50Z" duration-ms="4090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ptest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ptest1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:56:50Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-08T21:57:00Z" duration-ms="9721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:57:00Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-08T21:57:04Z" duration-ms="4251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:57:04Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-08T21:57:08Z" duration-ms="4079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-08T21:57:08Z" name="tearDown" finished-at="2020-02-08T21:57:09Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury_tours.testCases.TC_SignOnDDT_002 -->
+      <class name="com.mercury_tours.testCases.TC_RegisterDDT_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:09Z" name="setup" finished-at="2020-02-08T21:57:19Z" duration-ms="9789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:20Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-08T21:57:28Z" duration-ms="7590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beyer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4801111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tom@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,E thomas st]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[#333]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[phoenix]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[AZ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[85111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[tom123]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[tom123]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:28Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-08T21:57:34Z" duration-ms="5938" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:34Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-08T21:57:39Z" duration-ms="5459" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaabbb]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12312]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12, n street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:39Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-08T21:57:47Z" duration-ms="7168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dias]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[peter@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9, s street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[85858]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[peter]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[p1234]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[p1234]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:47Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-08T21:57:52Z" duration-ms="5902" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13213]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaa.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[paul]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[paul789]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[paul789]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:52Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-08T21:57:58Z" duration-ms="5851" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[jim]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[jim111]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[jim111]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-08T21:57:58Z" name="tearDown" finished-at="2020-02-08T21:57:59Z" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury_tours.testCases.TC_RegisterDDT_003 -->
+      <class name="com.mercury_tours.testCases.TC_BookFlight_005">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-08T21:57:59Z" name="setup" finished-at="2020-02-08T21:58:09Z" duration-ms="9935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-08T21:58:09Z" name="bookFlight" finished-at="2020-02-08T21:58:34Z" duration-ms="24814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@7ea37dbf]" started-at="2020-02-07T23:29:29Z" name="tearDown" finished-at="2020-02-07T23:29:30Z" duration-ms="685" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-08T21:58:34Z" name="tearDown" finished-at="2020-02-08T21:58:35Z" duration-ms="675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

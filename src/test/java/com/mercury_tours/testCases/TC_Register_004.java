@@ -15,7 +15,7 @@ public class TC_Register_004  extends BaseClass {
 	@Test
 	public void registerDDT() throws InterruptedException, IOException
 	{
-		// customer details to register 
+		// customer details
 		logger.info("***Registering****");
 		Register regCust = new Register(driver);
 		String isValid = "true";
@@ -37,7 +37,7 @@ public class TC_Register_004  extends BaseClass {
 		logger.info("***Registering - city****");
 		regCust.setState("AZ");
 		logger.info("***Registering - state****");
-		regCust.setPostalCode(85888);
+		regCust.setPostalCode("85888");
 		logger.info("***Registering - pcode****");
 		regCust.setCountry("UNITED STATES");
 		logger.info("***Registering - cntry****");

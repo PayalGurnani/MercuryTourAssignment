@@ -44,14 +44,20 @@ public class TC_RegisterDDT_003 extends BaseClass {
 				
 			}
 		}
+		for(int i=0;i<registerData.length;i++)
+		{
+			for (int j = 0; j < registerData[i].length; j++) 
+			{
+				System.out.println("Registered data:::::"+registerData[i][j]);
+			}
+		}
 	
 		return registerData;
 	}
 
 	@Test(dataProvider = "RegisterData")
-	public void registerDDT(String fName, String lName, String phone, String email, String add1, String add2, String city, String state, int pCode, String cntry, String uName, String pwd, String cPwd,String isValid) throws InterruptedException, IOException
+	public void registerDDT(String fName, String lName, String phone, String email, String add1, String add2, String city, String state, String pCode, String cntry, String uName, String pwd, String cPwd,String isValid) throws InterruptedException, IOException
 	{
-		System.out.println("----inside register method----");
 		logger.info("***Registering****");
 		Register regCust = new Register(driver);
 		

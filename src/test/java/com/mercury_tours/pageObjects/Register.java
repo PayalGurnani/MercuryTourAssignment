@@ -132,9 +132,9 @@ public class Register {
 		 state.sendKeys(sName);
 	 }
 	 
-	 public void setPostalCode(int pCode)
+	 public void setPostalCode(String pCode)
 	 {
-		 postalCode.sendKeys(String.valueOf(pCode));
+		 postalCode.sendKeys(pCode);
 	 }
 	 
 	 public void setCountry(String cntry)

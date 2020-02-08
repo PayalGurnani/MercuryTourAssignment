@@ -7,20 +7,13 @@
   <test thread-count="5" name="Mercury Tours Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.mercury_tours.testCases.TC_BookFlight_005">
-        <methods>
-          <include name="setup"/>
-          <include name="bookFlight"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.mercury_tours.testCases.TC_BookFlight_005 -->
-      <class name="com.mercury_tours.testCases.TC_SignOnDDT_002">
+      <class name="com.mercury_tours.testCases.TC_RegisterDDT_003">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="SignOnDDT" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="registerDDT" invocation-numbers="1 2 4 5"/>
         </methods>
-      </class> <!-- com.mercury_tours.testCases.TC_SignOnDDT_002 -->
+      </class> <!-- com.mercury_tours.testCases.TC_RegisterDDT_003 -->
     </classes>
   </test> <!-- Mercury Tours Test(failed) -->
 </suite> <!-- Failed suite [MercuryTours] -->

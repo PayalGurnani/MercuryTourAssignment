@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Mercury Tours Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 07 16:28:51 MST 2020</td>
+<td>Started on:</td><td>Sat Feb 08 14:56:26 MST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38524 ms)</td>
+<tr><td>Total time:</td><td>128 seconds (128913 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,194 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT()'><b>registerDDT</b><br>Test class: com.mercury_tours.testCases.TC_RegisterDDT_003<br>Parameters: , , , , , , , , , , , , , FALSE</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M7L5P8KB&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1961232715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1961232715'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M7L5P8KB&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT()'><b>registerDDT</b><br>Test class: com.mercury_tours.testCases.TC_RegisterDDT_003<br>Parameters: abc, def, aaabbb, 12312, 12, n street, , pune, maharashtra, 11111, INDIA, , , , FALSE</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:107)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1674390738", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1674390738'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:107)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT()'><b>registerDDT</b><br>Test class: com.mercury_tours.testCases.TC_RegisterDDT_003<br>Parameters: 13213, , , aaa.com, , , , , aaaaa, , paul, paul789, paul789, FALSE</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M7L5P8KB&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2068279617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2068279617'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M7L5P8KB&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT()'><b>registerDDT</b><br>Test class: com.mercury_tours.testCases.TC_RegisterDDT_003<br>Parameters: , , , , , , , , , , jim, jim111, jim111, FALSE</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M7L5P8KB&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace216919586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace216919586'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M7L5P8KB&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
+	at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +263,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.mercury_tours.testCases.TC_SignOnDDT_002.SignOnDDT()'><b>SignOnDDT</b><br>Test class: com.mercury_tours.testCases.TC_SignOnDDT_002<br>Parameters: abcde, 1234, FALSE</td>
+<td></td>
+<td>4</td>
+<td>com.mercury_tours.testCases.TC_SignOnDDT_002@197d671</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_SignOnDDT_002.SignOnDDT()'><b>SignOnDDT</b><br>Test class: com.mercury_tours.testCases.TC_SignOnDDT_002<br>Parameters: , 1a2b3c, FALSE</td>
+<td></td>
+<td>4</td>
+<td>com.mercury_tours.testCases.TC_SignOnDDT_002@197d671</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_SignOnDDT_002.SignOnDDT()'><b>SignOnDDT</b><br>Test class: com.mercury_tours.testCases.TC_SignOnDDT_002<br>Parameters: ptest, ptest1234, FALSE</td>
+<td></td>
+<td>4</td>
+<td>com.mercury_tours.testCases.TC_SignOnDDT_002@197d671</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_SignOnDDT_002.SignOnDDT()'><b>SignOnDDT</b><br>Test class: com.mercury_tours.testCases.TC_SignOnDDT_002<br>Parameters: mercury, mercury, TRUE</td>
+<td></td>
+<td>9</td>
+<td>com.mercury_tours.testCases.TC_SignOnDDT_002@197d671</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_SignOnDDT_002.SignOnDDT()'><b>SignOnDDT</b><br>Test class: com.mercury_tours.testCases.TC_SignOnDDT_002<br>Parameters: , , FALSE</td>
+<td></td>
+<td>4</td>
+<td>com.mercury_tours.testCases.TC_SignOnDDT_002@197d671</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_SignOnDDT_002.SignOnDDT()'><b>SignOnDDT</b><br>Test class: com.mercury_tours.testCases.TC_SignOnDDT_002<br>Parameters: stest, , FALSE</td>
+<td></td>
+<td>4</td>
+<td>com.mercury_tours.testCases.TC_SignOnDDT_002@197d671</td></tr>
+<tr>
 <td title='com.mercury_tours.testCases.TC_BookFlight_005.bookFlight()'><b>bookFlight</b><br>Test class: com.mercury_tours.testCases.TC_BookFlight_005</td>
 <td></td>
-<td>26</td>
-<td>com.mercury_tours.testCases.TC_BookFlight_005@7ea37dbf</td></tr>
+<td>24</td>
+<td>com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT()'><b>registerDDT</b><br>Test class: com.mercury_tours.testCases.TC_RegisterDDT_003<br>Parameters: Tom, Beyer, 4801111111, tom@gmail.com, 1,E thomas st, #333, phoenix, AZ, 85111, UNITED STATES, tom, tom123, tom123, TRUE</td>
+<td></td>
+<td>7</td>
+<td>com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc</td></tr>
+<tr>
+<td title='com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT()'><b>registerDDT</b><br>Test class: com.mercury_tours.testCases.TC_RegisterDDT_003<br>Parameters: Peter, Dias, , peter@gmail.com, 9, s street, , LA, California, 85858, UNITED STATES, peter, p1234, p1234, TRUE</td>
+<td></td>
+<td>7</td>
+<td>com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc</td></tr>
 </table><p>
 </body>
 </html>
