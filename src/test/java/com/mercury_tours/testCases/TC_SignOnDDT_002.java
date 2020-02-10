@@ -28,7 +28,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		
 		if(isValid.equals("TRUE") && driver.getTitle().equals("Find a Flight: Mercury Tours:"))
 		{
-			captureScreen(driver,"Sign On Test - DDT - Pass");
+			captureScreen(driver,"Sign On Test - DDT - Pass-"+uName);
 			Assert.assertTrue(true);
 			logger.warn("****DDT Sign On passed for valid user****");
 			signOn.clickSignOffLink();
@@ -37,7 +37,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		}
 		else if (isValid.equals("FALSE") && driver.getTitle().equals("Find a Flight: Mercury Tours:"))
 		{
-			captureScreen(driver,"Sign On Test - DDT - Fail");
+			captureScreen(driver,"Sign On Test - DDT - Fail-"+uName);
 			Assert.assertTrue(false);
 			logger.warn("****DDT Sign On successful for an invalid user****");
 			
@@ -45,7 +45,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		
 		else if (isValid.equals("FALSE"))
 		{
-			captureScreen(driver,"Sign On Test - DDT -cannot login for invalid user - Pass");
+			captureScreen(driver,"Sign On Test - DDT -cannot login for invalid user - Pass-"+uName);
 			Assert.assertTrue(true);
 			logger.warn("****DDT Cannot Sign On for invalid user ****");
 		
@@ -69,17 +69,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		{
 			for(int j = 0; j<colNum; j++)
 			{
-				
-				if(j!=colNum-1)
-				{
-				signOnData[i-1][j]=XLUtils.getCellData(path, "SignOn", i, j);
-				}
-				else
-				{
-					signOnData[i-1][j]=XLUtils.getCellData(path, "SignOn", i, j);
-				
-				}
-				
+				signOnData[i-1][j]=XLUtils.getCellData(path, "SignOn", i, j);	
 			}
 		}
 	

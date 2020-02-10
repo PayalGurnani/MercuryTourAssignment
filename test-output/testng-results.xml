@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-10T19:05:35Z" name="MercuryTours" finished-at="2020-02-10T19:08:04Z" duration-ms="149595">
+  <suite started-at="2020-02-10T19:52:51Z" name="MercuryTours" finished-at="2020-02-10T19:54:57Z" duration-ms="126006">
     <groups>
     </groups>
-    <test started-at="2020-02-10T19:05:35Z" name="Mercury Tours Test" finished-at="2020-02-10T19:08:04Z" duration-ms="149595">
+    <test started-at="2020-02-10T19:52:51Z" name="Mercury Tours Test" finished-at="2020-02-10T19:54:57Z" duration-ms="126006">
       <class name="com.mercury_tours.testCases.TC_RegisterDDT_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:06:39Z" name="setup" finished-at="2020-02-10T19:06:49Z" duration-ms="9740" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:53:36Z" name="setup" finished-at="2020-02-10T19:53:46Z" duration-ms="10017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:06:51Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:06:59Z" duration-ms="8135" status="PASS">
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:53:48Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:53:56Z" duration-ms="7995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDDT -->
-        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:06:59Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:07:06Z" duration-ms="7564" status="FAIL">
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:53:56Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:54:01Z" duration-ms="5545" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:107)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:90)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -209,7 +209,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDDT -->
-        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:07:06Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:07:17Z" duration-ms="10263" status="PASS">
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:54:01Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:54:09Z" duration-ms="7494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -285,7 +285,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDDT -->
-        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:07:17Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:07:23Z" duration-ms="5978" status="FAIL">
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:54:09Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:54:15Z" duration-ms="6116" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -374,7 +374,7 @@ System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', 
 Driver info: driver.version: unknown
 at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
 at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
-at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:66)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -406,7 +406,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDDT -->
-        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:07:23Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:07:28Z" duration-ms="5818" status="FAIL">
+        <test-method signature="registerDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:54:15Z" name="registerDDT" data-provider="RegisterData" finished-at="2020-02-10T19:54:21Z" duration-ms="5824" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -495,7 +495,7 @@ System info: host: 'LAPTOP-M7L5P8KB', ip: '192.168.0.8', os.name: 'Windows 10', 
 Driver info: driver.version: unknown
 at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
 at com.mercury_tours.pageObjects.Register.setCountry(Register.java:143)
-at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:84)
+at com.mercury_tours.testCases.TC_RegisterDDT_003.registerDDT(TC_RegisterDDT_003.java:66)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -527,13 +527,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:07:28Z" name="tearDown" finished-at="2020-02-10T19:07:29Z" duration-ms="670" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_RegisterDDT_003@402e37bc]" started-at="2020-02-10T19:54:21Z" name="tearDown" finished-at="2020-02-10T19:54:21Z" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mercury_tours.testCases.TC_RegisterDDT_003 -->
       <class name="com.mercury_tours.testCases.TC_SignOnDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:05:35Z" name="setup" finished-at="2020-02-10T19:06:06Z" duration-ms="30696" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:52:51Z" name="setup" finished-at="2020-02-10T19:53:02Z" duration-ms="10396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -544,7 +544,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:07Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:06:12Z" duration-ms="4399" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:03Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:53:08Z" duration-ms="5162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -565,7 +565,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnDDT -->
-        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:12Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:06:16Z" duration-ms="4329" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:08Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:53:13Z" duration-ms="4336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -586,7 +586,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnDDT -->
-        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:16Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:06:20Z" duration-ms="4137" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:13Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:53:17Z" duration-ms="4341" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -607,7 +607,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnDDT -->
-        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:20Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:06:30Z" duration-ms="9843" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:17Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:53:27Z" duration-ms="10257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -628,7 +628,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnDDT -->
-        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:30Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:06:34Z" duration-ms="4189" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:27Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:53:31Z" duration-ms="4276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -649,7 +649,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnDDT -->
-        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:34Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:06:38Z" duration-ms="4128" status="PASS">
+        <test-method signature="SignOnDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:31Z" name="SignOnDDT" data-provider="SignOnData" finished-at="2020-02-10T19:53:36Z" duration-ms="4150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -670,13 +670,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:06:38Z" name="tearDown" finished-at="2020-02-10T19:06:39Z" duration-ms="651" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_SignOnDDT_002@197d671]" started-at="2020-02-10T19:53:36Z" name="tearDown" finished-at="2020-02-10T19:53:36Z" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mercury_tours.testCases.TC_SignOnDDT_002 -->
       <class name="com.mercury_tours.testCases.TC_BookFlight_005">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-10T19:07:29Z" name="setup" finished-at="2020-02-10T19:07:39Z" duration-ms="9687" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-10T19:54:21Z" name="setup" finished-at="2020-02-10T19:54:31Z" duration-ms="9852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -687,11 +687,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookFlight()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-10T19:07:39Z" name="bookFlight" finished-at="2020-02-10T19:08:04Z" duration-ms="24795" status="PASS">
+        <test-method signature="bookFlight()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-10T19:54:31Z" name="bookFlight" finished-at="2020-02-10T19:54:57Z" duration-ms="25516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-10T19:08:04Z" name="tearDown" finished-at="2020-02-10T19:08:04Z" duration-ms="661" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury_tours.testCases.TC_BookFlight_005@79ad8b2f]" started-at="2020-02-10T19:54:57Z" name="tearDown" finished-at="2020-02-10T19:54:57Z" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

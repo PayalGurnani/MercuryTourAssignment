@@ -29,28 +29,10 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		{
 			for(int j = 0; j<colNum; j++)
 			{
-				
-				if(j!=colNum-1)
-				{
 					registerData[i-1][j]=XLUtils.getCellData(path, "Register", i, j);
-				System.out.println("Credentials::::"+registerData[i-1][j]);
-				}
-				else
-				{
-					registerData[i-1][j]=XLUtils.getCellData(path, "Register", i, j);
-					System.out.println("Is valid:::::"+registerData[i-1][j]);
-				
-				}
+			}
 				
 			}
-		}
-		for(int i=0;i<registerData.length;i++)
-		{
-			for (int j = 0; j < registerData[i].length; j++) 
-			{
-				System.out.println("Registered data:::::"+registerData[i][j]);
-			}
-		}
 	
 		return registerData;
 	}
@@ -96,7 +78,7 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		try {
 		if(isValid.equals("TRUE") && driver.findElement(By.linkText("sign-in")).isDisplayed())
 		{
-			captureScreen(driver,"Register Test - Pass");
+			captureScreen(driver,"Register Test - Pass-"+uName);
 			Assert.assertTrue(true);
 			logger.warn("****Valid user registered - PASS****");
 			Thread.sleep(2000);
@@ -104,7 +86,7 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		}
 		else if (isValid.equals("FALSE") &&  driver.findElement(By.linkText("sign-in")).isDisplayed())
 		{
-			captureScreen(driver,"Register Test - Fail");
+			captureScreen(driver,"Register Test - Fail-"+uName);
 			Assert.assertTrue(false);
 			logger.warn("****Registration successful for an invalid user-FAIL****");
 			Thread.sleep(2000);
@@ -115,7 +97,7 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		catch(NoSuchElementException e) {
 		if(isValid.equals("FALSE"))
 		{
-			captureScreen(driver,"Register Test - Cannot register for invalid user-PASS");
+			captureScreen(driver,"Register Test - Cannot register for invalid user-PASS-"+uName);
 			Assert.assertTrue(true);
 			logger.warn("****Cannot register for invalid user-PASS****");
 			Thread.sleep(2000);
