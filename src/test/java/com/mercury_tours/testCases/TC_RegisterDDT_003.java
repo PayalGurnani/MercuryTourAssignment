@@ -96,6 +96,7 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		try {
 		if(isValid.equals("TRUE") && driver.findElement(By.linkText("sign-in")).isDisplayed())
 		{
+			captureScreen(driver,"Register Test - Pass");
 			Assert.assertTrue(true);
 			logger.warn("****Valid user registered - PASS****");
 			Thread.sleep(2000);
@@ -103,7 +104,7 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		}
 		else if (isValid.equals("FALSE") &&  driver.findElement(By.linkText("sign-in")).isDisplayed())
 		{
-			captureScreen(driver,"Register Test");
+			captureScreen(driver,"Register Test - Fail");
 			Assert.assertTrue(false);
 			logger.warn("****Registration successful for an invalid user-FAIL****");
 			Thread.sleep(2000);
@@ -114,7 +115,7 @@ public class TC_RegisterDDT_003 extends BaseClass {
 		catch(NoSuchElementException e) {
 		if(isValid.equals("FALSE"))
 		{
-			captureScreen(driver,"Register Test");
+			captureScreen(driver,"Register Test - Cannot register for invalid user-PASS");
 			Assert.assertTrue(true);
 			logger.warn("****Cannot register for invalid user-PASS****");
 			Thread.sleep(2000);

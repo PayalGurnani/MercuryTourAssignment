@@ -770,3 +770,119 @@
 2020-02-08 14:58:32,258 - demoProject -INFO - ****Flight booking details entered****
 2020-02-08 14:58:32,325 - demoProject -WARN - ****Flight Successfully booked - PASS****
 2020-02-08 14:58:34,329 - demoProject -INFO - URL quit>>>>
+2020-02-10 12:06:01,963 - demoProject -INFO - URL launched>>>>
+2020-02-10 12:06:08,155 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:08,221 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:12,081 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:06:12,439 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:12,515 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:16,425 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:06:16,810 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:16,886 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:20,564 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:06:20,936 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:21,020 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:27,926 - demoProject -WARN - ****DDT Sign On passed for valid user****
+2020-02-10 12:06:30,787 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:30,843 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:34,603 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:06:34,963 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:35,016 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:06:38,733 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:06:38,735 - demoProject -INFO - URL quit>>>>
+2020-02-10 12:06:44,974 - demoProject -INFO - URL launched>>>>
+2020-02-10 12:06:51,210 - demoProject -INFO - ***Registering****
+2020-02-10 12:06:51,683 - demoProject -INFO - ***Registering - click reg link****
+2020-02-10 12:06:51,810 - demoProject -INFO - ***Registering - fname****
+2020-02-10 12:06:51,922 - demoProject -INFO - ***Registering - lname****
+2020-02-10 12:06:52,046 - demoProject -INFO - ***Registering - phone****
+2020-02-10 12:06:52,226 - demoProject -INFO - ***Registering - email****
+2020-02-10 12:06:52,400 - demoProject -INFO - ***Registering -add1****
+2020-02-10 12:06:52,499 - demoProject -INFO - ***Registering - add2****
+2020-02-10 12:06:52,615 - demoProject -INFO - ***Registering - city****
+2020-02-10 12:06:52,720 - demoProject -INFO - ***Registering - state****
+2020-02-10 12:06:52,840 - demoProject -INFO - ***Registering - pcode****
+2020-02-10 12:06:52,966 - demoProject -INFO - ***Registering - cntry****
+2020-02-10 12:06:53,073 - demoProject -INFO - ***Registering - uname****
+2020-02-10 12:06:53,184 - demoProject -INFO - ***Registering - pwd****
+2020-02-10 12:06:53,281 - demoProject -INFO - ***Registering - cpwd****
+2020-02-10 12:06:54,289 - demoProject -INFO - ***Registering- -submit****
+2020-02-10 12:06:57,340 - demoProject -WARN - ****Valid user registered - PASS****
+2020-02-10 12:06:59,347 - demoProject -INFO - ***Registering****
+2020-02-10 12:06:59,706 - demoProject -INFO - ***Registering - click reg link****
+2020-02-10 12:06:59,778 - demoProject -INFO - ***Registering - fname****
+2020-02-10 12:06:59,846 - demoProject -INFO - ***Registering - lname****
+2020-02-10 12:06:59,921 - demoProject -INFO - ***Registering - phone****
+2020-02-10 12:06:59,990 - demoProject -INFO - ***Registering - email****
+2020-02-10 12:07:00,109 - demoProject -INFO - ***Registering -add1****
+2020-02-10 12:07:00,157 - demoProject -INFO - ***Registering - add2****
+2020-02-10 12:07:00,228 - demoProject -INFO - ***Registering - city****
+2020-02-10 12:07:00,321 - demoProject -INFO - ***Registering - state****
+2020-02-10 12:07:00,394 - demoProject -INFO - ***Registering - pcode****
+2020-02-10 12:07:00,480 - demoProject -INFO - ***Registering - cntry****
+2020-02-10 12:07:00,534 - demoProject -INFO - ***Registering - uname****
+2020-02-10 12:07:00,588 - demoProject -INFO - ***Registering - pwd****
+2020-02-10 12:07:00,656 - demoProject -INFO - ***Registering - cpwd****
+2020-02-10 12:07:03,534 - demoProject -INFO - ***Registering- -submit****
+2020-02-10 12:07:06,912 - demoProject -INFO - ***Registering****
+2020-02-10 12:07:07,219 - demoProject -INFO - ***Registering - click reg link****
+2020-02-10 12:07:07,310 - demoProject -INFO - ***Registering - fname****
+2020-02-10 12:07:07,377 - demoProject -INFO - ***Registering - lname****
+2020-02-10 12:07:07,421 - demoProject -INFO - ***Registering - phone****
+2020-02-10 12:07:07,533 - demoProject -INFO - ***Registering - email****
+2020-02-10 12:07:07,622 - demoProject -INFO - ***Registering -add1****
+2020-02-10 12:07:07,666 - demoProject -INFO - ***Registering - add2****
+2020-02-10 12:07:07,720 - demoProject -INFO - ***Registering - city****
+2020-02-10 12:07:07,829 - demoProject -INFO - ***Registering - state****
+2020-02-10 12:07:07,895 - demoProject -INFO - ***Registering - pcode****
+2020-02-10 12:07:07,945 - demoProject -INFO - ***Registering - cntry****
+2020-02-10 12:07:08,010 - demoProject -INFO - ***Registering - uname****
+2020-02-10 12:07:08,079 - demoProject -INFO - ***Registering - pwd****
+2020-02-10 12:07:08,151 - demoProject -INFO - ***Registering - cpwd****
+2020-02-10 12:07:12,101 - demoProject -INFO - ***Registering- -submit****
+2020-02-10 12:07:15,174 - demoProject -WARN - ****Valid user registered - PASS****
+2020-02-10 12:07:17,182 - demoProject -INFO - ***Registering****
+2020-02-10 12:07:17,539 - demoProject -INFO - ***Registering - click reg link****
+2020-02-10 12:07:17,630 - demoProject -INFO - ***Registering - fname****
+2020-02-10 12:07:17,680 - demoProject -INFO - ***Registering - lname****
+2020-02-10 12:07:17,731 - demoProject -INFO - ***Registering - phone****
+2020-02-10 12:07:17,814 - demoProject -INFO - ***Registering - email****
+2020-02-10 12:07:17,866 - demoProject -INFO - ***Registering -add1****
+2020-02-10 12:07:17,914 - demoProject -INFO - ***Registering - add2****
+2020-02-10 12:07:17,971 - demoProject -INFO - ***Registering - city****
+2020-02-10 12:07:18,020 - demoProject -INFO - ***Registering - state****
+2020-02-10 12:07:18,098 - demoProject -INFO - ***Registering - pcode****
+2020-02-10 12:07:23,166 - demoProject -INFO - ***Registering****
+2020-02-10 12:07:23,471 - demoProject -INFO - ***Registering - click reg link****
+2020-02-10 12:07:23,523 - demoProject -INFO - ***Registering - fname****
+2020-02-10 12:07:23,569 - demoProject -INFO - ***Registering - lname****
+2020-02-10 12:07:23,614 - demoProject -INFO - ***Registering - phone****
+2020-02-10 12:07:23,659 - demoProject -INFO - ***Registering - email****
+2020-02-10 12:07:23,703 - demoProject -INFO - ***Registering -add1****
+2020-02-10 12:07:23,749 - demoProject -INFO - ***Registering - add2****
+2020-02-10 12:07:23,807 - demoProject -INFO - ***Registering - city****
+2020-02-10 12:07:23,856 - demoProject -INFO - ***Registering - state****
+2020-02-10 12:07:23,916 - demoProject -INFO - ***Registering - pcode****
+2020-02-10 12:07:28,985 - demoProject -INFO - URL quit>>>>
+2020-02-10 12:07:35,215 - demoProject -INFO - URL launched>>>>
+2020-02-10 12:07:39,343 - demoProject -INFO - ****URL Launched****
+2020-02-10 12:07:39,778 - demoProject -INFO - ****Username entered****
+2020-02-10 12:07:39,861 - demoProject -INFO - ****Password entered****
+2020-02-10 12:07:50,996 - demoProject -INFO - ****Find a Flight details entered****
+2020-02-10 12:07:56,061 - demoProject -INFO - ****Select flights details entered****
+2020-02-10 12:08:02,083 - demoProject -INFO - ****Flight booking details entered****
+2020-02-10 12:08:02,138 - demoProject -WARN - ****Flight Successfully booked - PASS****
+2020-02-10 12:08:04,139 - demoProject -INFO - URL quit>>>>
+2020-02-10 12:12:30,992 - demoProject -INFO - URL launched>>>>
+2020-02-10 12:12:37,238 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:37,336 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:41,100 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:12:41,427 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:41,512 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:45,238 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:12:45,836 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:45,923 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:49,531 - demoProject -WARN - ****DDT Cannot Sign On for invalid user ****
+2020-02-10 12:12:49,844 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:12:49,922 - demoProject -INFO - ****DDT User name entered****
+2020-02-10 12:13:08,542 - demoProject -WARN - ****DDT Sign On passed for valid user****

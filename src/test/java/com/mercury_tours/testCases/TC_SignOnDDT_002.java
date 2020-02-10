@@ -28,6 +28,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		
 		if(isValid.equals("TRUE") && driver.getTitle().equals("Find a Flight: Mercury Tours:"))
 		{
+			captureScreen(driver,"Sign On Test - DDT - Pass");
 			Assert.assertTrue(true);
 			logger.warn("****DDT Sign On passed for valid user****");
 			signOn.clickSignOffLink();
@@ -36,6 +37,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		}
 		else if (isValid.equals("FALSE") && driver.getTitle().equals("Find a Flight: Mercury Tours:"))
 		{
+			captureScreen(driver,"Sign On Test - DDT - Fail");
 			Assert.assertTrue(false);
 			logger.warn("****DDT Sign On successful for an invalid user****");
 			
@@ -43,7 +45,7 @@ public class TC_SignOnDDT_002 extends BaseClass{
 		
 		else if (isValid.equals("FALSE"))
 		{
-			captureScreen(driver,"Sign On Test - DDT");
+			captureScreen(driver,"Sign On Test - DDT -cannot login for invalid user - Pass");
 			Assert.assertTrue(true);
 			logger.warn("****DDT Cannot Sign On for invalid user ****");
 		

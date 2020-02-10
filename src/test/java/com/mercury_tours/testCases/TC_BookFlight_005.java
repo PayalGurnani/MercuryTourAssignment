@@ -148,6 +148,7 @@ public class TC_BookFlight_005 extends BaseClass{
 		   //flight booked confirmation message
 	   if(driver.findElement(By.xpath("//img[@src='/images/masts/mast_confirmation.gif']")).isDisplayed())
 	   {
+		   captureScreen(driver,"Book flight Test - Pass");
 		   Assert.assertTrue(true);
 			logger.warn("****Flight Successfully booked - PASS****");
 			Thread.sleep(2000);
@@ -156,7 +157,7 @@ public class TC_BookFlight_005 extends BaseClass{
 	   }
 	   catch(NoSuchElementException e)
 	   {
-		   captureScreen(driver,"Book flight Test");
+		   captureScreen(driver,"Book flight Test - Fail");
 			Assert.assertTrue(false);
 			logger.warn("****Flight booking unsuccessful****");
 			Thread.sleep(2000);
